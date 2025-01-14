@@ -177,7 +177,7 @@ def counting_sort_radix(arr, exp):
     for i in range(n):
         arr[i] = output[i]
 # Generare și benchmark
-nr_liste = 1000 # Începe cu 10 liste pentru testare; extinde la 1.000 ulterior
+nr_liste = 100 # Începe cu 10 liste pentru testare; extinde la 1.000 ulterior
 lists = generate_integer_lists(nr_liste)
 
 algorithms = [counting_sort, radix_sort, merge_sort, quick_sort, heap_sort]
